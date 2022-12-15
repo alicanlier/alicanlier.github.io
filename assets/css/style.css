@@ -210,10 +210,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 50vh;
-  background: url("../img/nasa1.jpg") top center;
-  /**background-size: cover;*/
+  height: 40vh;
+  /*background: url("../img/nasa1.jpg") top center;
+  background: url("../img/nasa1.jpg") center;
+  background: url("../img/nasa2.jpg") bottom center;*/
+  background: url("../img/nasa1.jpg") center;
+  /*background-size: cover;*/
+  background-size: cover;
 }
 
 #hero:before {
